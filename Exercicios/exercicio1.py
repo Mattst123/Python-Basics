@@ -7,7 +7,7 @@ altura = 1.71
 peso = 85.50
 ano_atual= 2021
 
-IMC = peso / (altura*altura)
+IMC = peso / altura**2
 ano_nascimento = ano_atual - idade
 
 print(f'{nome} tem {idade} anos e  {altura}m de altura.')
